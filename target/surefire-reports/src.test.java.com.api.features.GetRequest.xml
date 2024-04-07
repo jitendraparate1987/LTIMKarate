@@ -1,0 +1,7 @@
+<testsuite failures="0" name="src/test/java/com/api/features/GetRequest.feature" skipped="0" tests="1" time="3.545397">
+  <testcase classname="src.test.java.com.api.features.GetRequest" name="Test Get Request API" time="3.545397">
+    <system-out>Given url 'https://restful-booker.herokuapp.com/booking' .................. passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed</system-out>
+  </testcase>
+</testsuite>

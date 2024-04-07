@@ -1,0 +1,9 @@
+<testsuite failures="0" name="src/test/java/com/api/features/GetRequestByBookingID.feature" skipped="0" tests="1" time="3.03083">
+  <testcase classname="src.test.java.com.api.features.GetRequestByBookingID" name="Get booking details by ID" time="3.03083">
+    <system-out>* url 'https://restful-booker.herokuapp.com' .............................. passed
+* configure headers = { Accept: 'application/json' } ...................... passed
+Given path '/booking/1' ................................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed</system-out>
+  </testcase>
+</testsuite>

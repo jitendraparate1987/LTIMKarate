@@ -1,0 +1,16 @@
+<testsuite failures="1" name="src/test/java/com/api/features/UpdateBooking.feature" skipped="0" tests="1" time="3.287684">
+  <testcase classname="src.test.java.com.api.features.UpdateBooking" name="Update booking details" time="3.287684">
+    <failure message="UpdateBooking.feature:26 - status code was: 403, expected: 200, response time: 1955, url: https://restful-booker.herokuapp.com/booking/1, response: Forbidden">* url 'https://restful-booker.herokuapp.com' .............................. passed
+* header Content-Type = 'application/json' ................................ passed
+* header Accept = 'application/json' ...................................... passed
+* cookie token = 'abc123'  // Replace 'abc123' with the actual token value . passed
+Given path '/booking/1'  // Replace '1' with the actual booking ID you want to update . passed
+And request ............................................................... passed
+When method PUT ........................................................... passed
+Then status 200 ........................................................... failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: UpdateBooking.feature:26 - status code was: 403, expected: 200, response time: 1955, url: https://restful-booker.herokuapp.com/booking/1, response: Forbidden&#13;
+	at ✽.Then status 200 (UpdateBooking.feature:26)</failure>
+  </testcase>
+</testsuite>

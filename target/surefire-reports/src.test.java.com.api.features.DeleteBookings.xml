@@ -1,0 +1,13 @@
+<testsuite failures="1" name="src/test/java/com/api/features/DeleteBookings.feature" skipped="0" tests="1" time="3.143646">
+  <testcase classname="src.test.java.com.api.features.DeleteBookings" name="Delete booking by ID" time="3.143646">
+    <failure message="DeleteBookings.feature:11 - status code was: 403, expected: 200, response time: 1852, url: https://restful-booker.herokuapp.com/booking/1, response: Forbidden">* url 'https://restful-booker.herokuapp.com' .............................. passed
+* header Content-Type = 'application/json' ................................ passed
+Given path '/booking/1' ................................................... passed
+When method DELETE ........................................................ passed
+Then status 200 ........................................................... failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: DeleteBookings.feature:11 - status code was: 403, expected: 200, response time: 1852, url: https://restful-booker.herokuapp.com/booking/1, response: Forbidden&#13;
+	at ✽.Then status 200 (DeleteBookings.feature:11)</failure>
+  </testcase>
+</testsuite>

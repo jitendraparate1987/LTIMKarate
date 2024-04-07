@@ -1,0 +1,14 @@
+<testsuite failures="1" name="src/test/java/com/api/features/CreateBooking.feature" skipped="0" tests="1" time="2.93942">
+  <testcase classname="src.test.java.com.api.features.CreateBooking" name="Create a new booking" time="2.93942">
+    <failure message="CreateBooking.feature:24 - status code was: 418, expected: 200, response time: 1674, url: https://restful-booker.herokuapp.com/booking, response: I'm a Teapot">* url 'https://restful-booker.herokuapp.com' .............................. passed
+* header Content-Type = 'application/json' ................................ passed
+Given path '/booking' ..................................................... passed
+And request ............................................................... passed
+When method POST .......................................................... passed
+Then status 200 ........................................................... failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: CreateBooking.feature:24 - status code was: 418, expected: 200, response time: 1674, url: https://restful-booker.herokuapp.com/booking, response: I'm a Teapot&#13;
+	at ✽.Then status 200 (CreateBooking.feature:24)</failure>
+  </testcase>
+</testsuite>
